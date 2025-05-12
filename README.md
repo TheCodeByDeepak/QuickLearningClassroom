@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Quick Learning Classroom Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+Quick Learning Classroom Management System is a web application designed to manage classroom activities, assignments, attendance, and student information for admins, faculty, and students. The system allows for role-based access, classroom creation, and real-time communication through a chat feature.
 
-## Available Scripts
+## Features
+- **Admin Features:**
+  - Create and manage classrooms
+  - Add and remove students and faculty from classrooms
+  - View student profiles and classroom data
+  - Manage assignments, announcements, timetables, and fees
+  - Mark attendance and manage test results
+  - Manage blacklist data of students
+  - Approve or reject student join requests based on codes
 
-In the project directory, you can run:
+- **Faculty Features:**
+  - Edit their own profile
+  - Edit student profiles within their classrooms
+  - Add and manage assignments, announcements, and study materials
+  - Activate/deactivate permissions for other faculty members
+  - Manage student blacklist data
 
-### `npm start`
+- **Student Features:**
+  - Join classrooms with an approval code
+  - View assignments, test marks, and announcements
+  - View attendance and study materials (no edit permissions)
+  - Participate in real-time classroom chat
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
+- **Frontend:**
+  - React.js
+  - Redux
+  - React Router
+  - HTML, CSS, JavaScript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Backend:**
+  - Node.js
+  - Express.js
+  - MongoDB
+  - JWT Authentication
+  - Socket.io for real-time communication
 
-### `npm test`
+- **Deployment:**
+  - Backend hosted on Heroku
+  - Frontend hosted on Netlify/Vercel
+  - Database hosted on MongoDB Atlas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+### Home Page
+![Home Page](./screenshots/Home%20Page.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Register Page
+![Register Page](./screenshots/Register%20Page.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Login Page
+![Login Page](./screenshots/Login%20Page.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Admin Dashboard
+![Admin Dashboard](./screenshots/Admin%20Dashboard.png)
 
-### `npm run eject`
+### Admin Dashboard With Classroom
+![Admin Dashboard With Classroom](./screenshots/Admin%20Dashboard%20With%20Classroom.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Admin Existing Classroom
+![Admin Existing Classroom](./screenshots/Admin%20Existing%20Classroom.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Faculty Dashboard
+![Faculty Dashboard](./screenshots/Faculty%20dashboard.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Student Dashboard
+![Student Dashboard](./screenshots/Student%20Dashboard.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
