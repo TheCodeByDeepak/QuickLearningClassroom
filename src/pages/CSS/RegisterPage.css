@@ -1,0 +1,102 @@
+/* RegisterPage.css */
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  
+  .register-container h1 {
+    text-align: center;
+    color: #2a5298;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.header-icon {
+  color: #2a5298;
+    margin-right: 10px;
+    font-size: 1.8rem;
+   
+}
+  
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+
+  .form-label {
+    font-weight: 600;
+    color: #333;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+  
+  .form-icon {
+    margin-right: 10px;
+    color: #2a5298;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #36d1dc, #5b86e5);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color:  #007bff;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for the login link at the bottom */
+  .login-link-container {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .login-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .login-link:hover {
+    color: #0056b3;
+  }
+  

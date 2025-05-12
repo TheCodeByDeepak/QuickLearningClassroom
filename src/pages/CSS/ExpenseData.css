@@ -1,0 +1,187 @@
+.expensedata-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-left: 30px;
+  }
+  
+  /* Label styling */
+  .expensedata-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Input fields styling */
+  .expensedata-input {
+    padding: 8px;
+    border: 1px solid #1e90ff;
+    
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, background-color 0.3s;
+    width: 150px;
+  }
+  
+  /* Focus effect */
+  .expensedata-input:focus {
+    border-color: #1e90ff;
+    background-color: #ffffff;
+    outline: none;
+  }
+  
+  /* Buttons styling */
+  .expensedata-button {
+    padding: 8px 12px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Hover effect on buttons */
+  .expensedata-button:hover {
+    background-color: #1e7bdf;
+    transform: scale(1.05);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Styling for the attendance table */
+.expensedata-table {
+    border-collapse: collapse;
+    width: 50%;
+  
+}
+
+/* Table header styling */
+.expensedata-table th, 
+.expensedata-table td {
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray line between rows */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .expensedata-table {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .expensedata-table th,
+    .expensedata-table td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .expensedata-table {
+        font-size: 12px;
+    }
+
+    .expensedata-table th,
+    .expensedata-table td {
+        padding: 6px;
+    }
+}
+
+
+
+
+
+
+
+/* Input fields styling */
+.expensedata-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s, background-color 0.3s;
+  width: 150px; /* Ensures consistent width */
+}
+
+/* Specific styling for start date */
+.start-date {
+  border-color: #1e90ff;;
+}
+
+
+/* Buttons styling */
+.expensedata-button {
+  padding: 8px 12px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect on buttons */
+.expensedata-button:hover {
+  background-color: #1e7bdf;
+  transform: scale(1.05);
+}
+
+
+
+ /* Styling for the attendance table */
+ .expensedata-table {
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: 25px;
+
+}
+
+/* Table header styling */
+.expensedata-table th, 
+.expensedata-table td {
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd; /* Light gray line between rows */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .expensedata-table {
+      width: 90%;
+      font-size: 14px;
+  }
+
+  .expensedata-table th,
+  .expensedata-table td {
+      padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .expensedata-table {
+      font-size: 12px;
+  }
+
+  .expensedata-table th,
+  .expensedata-table td {
+      padding: 6px;
+  }
+}
+

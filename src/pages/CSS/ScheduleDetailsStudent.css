@@ -1,0 +1,122 @@
+/* DatePicker.css */
+
+/* Container for the date picker and button */
+.date-picker-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the date input */
+  .date-input {
+    padding: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #1e90ff; /* Dark blue border */
+    color: #1e3a8a; /* Dark blue text */
+    background-color: #f1f5f9; /* Light gray background */
+  }
+  
+  .date-input:focus {
+    outline: none;
+    border-color: #2563eb; /* Bright blue on focus */
+    background-color: #e0f2fe; /* Subtle blue highlight */
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5); /* Blue shadow on focus */
+  }
+  
+  /* Styles for the Clear button */
+  .clear-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #1e90ff; /* Dark blue border */
+    border-radius: 5px;
+    background-color: #1e90ff; /* Bright blue background */
+    color: #ffffff; /* White text for contrast */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .clear-button:hover {
+    background-color: #489bed; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+  }
+  
+  .clear-button:active {
+    background-color: #255bef; /* Even darker blue on click */
+    transform: scale(1); /* Reset size */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .date-input {
+      font-size: 12px;
+      padding: 6px;
+    }
+  
+    .clear-button {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .date-picker-container {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .date-input {
+      margin-right: 0;
+      margin-bottom: 8px; /* Add spacing between inputs */
+    }
+  
+    .clear-button {
+      width: 100%; /* Full-width button for smaller screens */
+    }
+  }
+
+  
+
+
+
+
+
+  /* Styling for the attendance table */
+.schedule-table {
+  border-collapse: collapse;
+  width: 50%;
+
+}
+
+/* Table header styling */
+.schedule-table th, 
+.schedule-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Light gray line between rows */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .schedule-table {
+      width: 90%;
+      font-size: 14px;
+  }
+
+  .schedule-table th,
+  .schedule-table td {
+      padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .schedule-table {
+      font-size: 12px;
+  }
+
+  .schedule-table th,
+  .schedule-table td {
+      padding: 6px;
+  }
+}

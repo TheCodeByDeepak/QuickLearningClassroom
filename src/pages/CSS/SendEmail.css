@@ -1,0 +1,60 @@
+.sendemail-container {
+    padding: 15px;
+    border: 2px solid #1e90ff;
+    border-radius: 8px;
+   margin-top: 15px;
+    max-width: 370px;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: -10px;
+
+ 
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .sendemail-title {
+    color: #0056b3;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+
+  }
+
+  .sendemail-label {
+
+    font-size: 18px;
+  }
+
+
+  .sendemail-input {
+    width: 250px; /* Fixed width */
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #1e90ff; /* Gray border */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text */
+    /* Remove flex: 1 to prevent auto-expansion */
+    margin-bottom: 10px;
+  }
+  
+  .sendemail-input:focus {
+    outline: none;
+    border-color: #1e90ff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5); /* Blue shadow */
+  }
+
+  .sendemail-submit {
+    background-color: #1e90ff;;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .sendemail-submit:hover {
+    background-color: #0056b3;
+  }

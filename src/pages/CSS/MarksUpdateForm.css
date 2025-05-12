@@ -1,0 +1,153 @@
+.marks-container {
+    padding: 20px;
+    border: 2px solid #1e90ff;
+    border-radius: 8px;
+   margin-top: 15px;
+    max-width: 900px;
+ 
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .marks-title {
+    color: #0056b3;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+
+  }
+
+  .marks-note {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+  .test-date {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .test-label {
+    margin-bottom: 15px;
+    margin-left: 7px;
+    font-size: 16px;
+  }
+
+  .test-date input {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #1e90ff;;
+    margin-top: 15px;
+    border-radius: 4px;
+  }
+
+
+  .input {
+    width: 210px; /* Fixed width */
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #1e90ff; /* Gray border */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text */
+    /* Remove flex: 1 to prevent auto-expansion */
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #1e90ff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5); /* Blue shadow */
+  }
+
+  .input-note {
+    width: 210px; /* Fixed width */
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #1e90ff; /* Gray border */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text */
+    /* Remove flex: 1 to prevent auto-expansion */
+  }
+  
+  .input-note:focus {
+    outline: none;
+    border-color: #1e90ff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5); /* Blue shadow */
+  }
+  
+
+  .input-marks {
+    width: 210px; /* Fixed width */
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: -30px;
+    margin-right: 10px;
+    border: 1px solid #1e90ff; /* Gray border */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text */
+    /* Remove flex: 1 to prevent auto-expansion */
+  }
+  
+  .input-marks:focus {
+    outline: none;
+    border-color: #1e90ff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5); /* Blue shadow */
+  }
+
+
+
+  .submit {
+    background-color: #1e90ff;;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submit:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  /* Custom Checkbox */
+.custom-checkbox {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #1e90ff;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+    transition: background-color 0.2s, border-color 0.2s;
+  }
+  
+  /* Checkbox checked state */
+  .custom-checkbox:checked {
+    background-color: #1e90ff;
+    border-color: #1e90ff;
+  }
+  
+  /* Checkmark */
+  .custom-checkbox:checked::after {
+    content: "✔";
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+  
+  
+
+  

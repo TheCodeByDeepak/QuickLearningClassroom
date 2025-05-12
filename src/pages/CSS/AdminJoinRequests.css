@@ -1,0 +1,82 @@
+.join-request-container-admin {
+    padding: 15px;
+    border: 2px solid #1e90ff;
+    border-radius: 8px;
+    margin-top: 20px;
+    max-width: 380px;
+  }
+  
+  .join-request-container-admin h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+
+
+  .reject-btn-joinrequest-admin { 
+    display: inline-block;
+    margin-top: 15px;
+    padding: 6px 10px;
+    background: linear-gradient(90deg, #1e90ff, #5b86e5); /* Bright Blue Gradient */
+    color: #fff;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.3s; /* Transition for background and scale effect */
+}
+
+.rejected-btn-joinrequest-admin { 
+    display: inline-block;
+    margin-top: 15px;
+    padding: 6px 10px;
+    background: tomato; /* Bright Blue Gradient */
+    color: #fff;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.3s; /* Transition for background and scale effect */
+}
+
+.reject-btn-joinrequest-admin:hover {
+    background: tomato; /* Solid color replaces the gradient on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+
+.approved-btn-joinrequest-admin { 
+    display: inline-block;
+    margin-top: 15px;
+    padding: 6px 10px;
+    background: rgb(20, 177, 20);
+    color: #fff;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.3s; /* Transition for background and scale effect */
+}
+
+
+.approve-btn-joinrequest-admin { 
+    display: inline-block;
+    margin-top: 15px;
+    padding: 6px 10px;
+    background: linear-gradient(90deg, #1e90ff, #5b86e5); /* Bright Blue Gradient */
+    color: #fff;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.3s; /* Transition for background and scale effect */
+}
+
+.approve-btn-joinrequest-admin:hover {
+    background: rgb(20, 177, 20); /* Solid color replaces the gradient on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}

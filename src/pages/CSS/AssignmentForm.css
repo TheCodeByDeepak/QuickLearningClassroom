@@ -1,0 +1,134 @@
+ /* Styling for the attendance table */
+ .assignment-table {
+    border-collapse: collapse;
+    width: 80%;
+  
+}
+
+/* Table header styling */
+.assignment-table th, 
+.assignment-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray line between rows */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .assignment-table {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .assignment-table th,
+    .assignment-table td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .assignment-table {
+        font-size: 12px;
+    }
+
+    .assignment-table th,
+    .assignment-table td {
+        padding: 6px;
+    }
+}
+
+
+
+
+
+
+
+
+/* Container styling */
+.filter-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  /* Label styling */
+  .filter-label {
+    font-weight: bold;
+  }
+  
+  /* Input fields styling */
+  .filter-input {
+    padding: 8px;
+    border: 1px solid #1e90ff;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, background-color 0.3s;
+    width: 150px; /* Ensures consistent width */
+  }
+  
+  /* Focus effect */
+  .filter-input:focus {
+    border-color: #1e90ff;
+    background-color: #ffffff;
+    outline: none;
+  }
+  
+  /* Buttons styling */
+  .filter-button {
+    padding: 8px 12px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Hover effect on buttons */
+  .filter-button:hover {
+    background-color: #1e7bdf;
+    transform: scale(1.05);
+  }
+
+
+
+
+
+
+
+  /* Custom Checkbox */
+.custom-checkbox {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #1e90ff;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+    transition: background-color 0.2s, border-color 0.2s;
+  }
+  
+  /* Checkbox checked state */
+  .custom-checkbox:checked {
+    background-color: #1e90ff;
+    border-color: #1e90ff;
+  }
+  
+  /* Checkmark */
+  .custom-checkbox:checked::after {
+    content: "✔";
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+  
+  

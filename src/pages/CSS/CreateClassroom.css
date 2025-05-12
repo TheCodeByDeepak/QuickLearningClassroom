@@ -1,0 +1,141 @@
+.createclassroom-container {
+    padding: 15px;
+    border: 2px solid #1e90ff;
+    border-radius: 8px;
+   margin-top: 15px;
+    max-width: 360px;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: -10px;
+
+ 
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .createclassroom-title {
+    color: #0056b3;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+
+  }
+
+
+  .createclassroom-label {
+
+    font-size: 18px;
+  }
+
+
+  .createclassroom-label-selectfaculty {
+    margin-left: 0px;
+    font-size: 18px;
+  }
+
+
+  .createclassroom-input {
+    width: 250px; /* Fixed width */
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #1e90ff; /* Gray border */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text */
+    /* Remove flex: 1 to prevent auto-expansion */
+  }
+  
+  .createclassroom-input:focus {
+    outline: none;
+    border-color: #1e90ff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5); /* Blue shadow */
+  }
+
+
+  .createclassroom-input-time {
+    width: 144px; /* Fixed width */
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #1e90ff; /* Gray border */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text */
+    /* Remove flex: 1 to prevent auto-expansion */
+  }
+  
+  .createclassroom-input-time:focus {
+    outline: none;
+    border-color: #1e90ff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5); /* Blue shadow */
+  }
+
+  .createclassroom-input-time-end {
+    width: 144px; /* Fixed width */
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px solid #1e90ff; /* Gray border */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text */
+    /* Remove flex: 1 to prevent auto-expansion */
+  }
+  
+  .createclassroom-input-time-end:focus {
+    outline: none;
+    border-color: #1e90ff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5); /* Blue shadow */
+  }
+
+
+
+
+  /* Custom Checkbox */
+.custom-checkbox-createclassroom {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #1e90ff;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+    background-color: white;
+    transition: background-color 0.2s, border-color 0.2s;
+  }
+  
+  /* Checkbox checked state */
+  .custom-checkbox-createclassroom:checked {
+    background-color: #1e90ff;
+    border-color: #1e90ff;
+  }
+  
+  /* Checkmark */
+  .custom-checkbox-createclassroom:checked::after {
+    content: "✔";
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+  
+  
+
+  .createclassroom-create {
+    background-color: #1e90ff;;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .createclassroom-create:hover {
+    background-color: #0056b3;
+  }

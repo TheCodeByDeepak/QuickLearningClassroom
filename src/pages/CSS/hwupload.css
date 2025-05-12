@@ -1,0 +1,121 @@
+/* Container for Filters */
+.filter-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  /* Labels */
+  .filter-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .filter-input,
+  .search-input {
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #1e90ff;
+    
+  }
+  
+  .filter-input:focus,
+  .search-input:focus {
+    border-color: #1e90ff;
+    outline: none;
+    background-color: #f9f9f9;
+  }
+  
+  /* Buttons */
+  .filter-button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .filter-button:hover {
+    background-color: #0077cc;
+    transform: scale(1.05);
+  }
+  
+
+
+
+
+
+
+   /* Styling for the attendance table */
+.hwupload-table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+/* Table header styling */
+.hwupload-table th, 
+.hwupload-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Light gray line between rows */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .hwupload-table {
+      width: 90%;
+      font-size: 14px;
+  }
+
+  .hwupload-table th,
+  .hwupload-table td {
+      padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hwupload-table {
+      font-size: 12px;
+  }
+
+  .hwupload-table th,
+  .hwupload-table td {
+      padding: 6px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* styles.css */
+.custom-file-input {
+  display: none; /* Hide default input */
+}
+
+.custom-file-label {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+}
+
+.custom-file-label:hover {
+  background-color: #0077cc;
+}

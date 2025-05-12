@@ -1,0 +1,90 @@
+/* Search Container */
+.search-container {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Search Input */
+  .search-input {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #1e90ff;
+    width: 300px;
+    margin-right: 10px;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  /* Input Focus Effect */
+  .search-input:focus {
+    border-color: #1e90ff;
+    outline: none;
+    background-color: #f9f9f9;
+  }
+  
+  /* Clear Button */
+  .clear-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #1e90ff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Hover Effect */
+  .clear-button:hover {
+    background-color: #1e90ff;
+    transform: scale(1.05);
+  }
+
+
+
+
+
+
+
+
+
+  /* Styling for the attendance table */
+.HWview-table {
+    border-collapse: collapse;
+    width: 70%;
+  
+}
+
+/* Table header styling */
+.HWview-table th, 
+.HWview-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray line between rows */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .HWview-table {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .HWview-table th,
+    .HWview-table td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .HWview-table {
+        font-size: 12px;
+    }
+
+    .HWview-table th,
+    .HWview-table td {
+        padding: 6px;
+    }
+}
+
+  

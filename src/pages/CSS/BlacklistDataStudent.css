@@ -1,0 +1,102 @@
+/* Container styling */
+.filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  /* Label styling */
+  .filter-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Input fields styling */
+  .filter-input {
+    padding: 8px;
+    border: 1px solid #1e90ff;
+    
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, background-color 0.3s;
+    width: 150px;
+  }
+  
+  /* Focus effect */
+  .filter-input:focus {
+    border-color: #1e90ff;
+    background-color: #ffffff;
+    outline: none;
+  }
+  
+  /* Buttons styling */
+  .filter-button {
+    padding: 8px 12px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Hover effect on buttons */
+  .filter-button:hover {
+    background-color: #1e7bdf;
+    transform: scale(1.05);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Styling for the attendance table */
+.blacklist-table {
+    border-collapse: collapse;
+    width: 50%;
+  
+}
+
+/* Table header styling */
+.blacklist-table th, 
+.blacklist-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray line between rows */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .blacklist-table {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .blacklist-table th,
+    .blacklist-table td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blacklist-table {
+        font-size: 12px;
+    }
+
+    .blacklist-table th,
+    .blacklist-table td {
+        padding: 6px;
+    }
+}

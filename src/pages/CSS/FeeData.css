@@ -1,0 +1,121 @@
+/* Container styling */
+.filter-container-fee-admin {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  /* Label styling */
+  .filter-label-fee-admin {
+    font-weight: bold;
+  }
+  
+  /* Input fields styling */
+  .filter-input-fee-admin {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, background-color 0.3s;
+    width: 150px; /* Ensures consistent width */
+  }
+  
+  /* Specific styling for start date */
+  .start-date-fee-admin {
+    border-color: #1e90ff;;
+  }
+  
+  /* Specific styling for end date */
+  .end-date-fee-admin {
+    border-color: #1e90ff;;
+  }
+  
+  /* Dropdown styling */
+  .filter-select-fee-admin,
+  .status-filter-fee-admin {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #1e90ff;;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, background-color 0.3s;
+    width: 120px;
+  }
+  
+  /* Focus effect */
+  .filter-input-fee-admin:focus,
+  .filter-select-fee-admin:focus {
+    border-color: #1e90ff;;
+    background-color: #ffffff;
+    outline: none;
+  }
+  
+  /* Buttons styling */
+  .filter-button-fee-admin {
+    padding: 8px 12px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Hover effect on buttons */
+  .filter-button-fee-admin:hover {
+    background-color: #1e7bdf;
+    transform: scale(1.05);
+  }
+
+
+
+
+
+
+
+
+
+
+
+   /* Styling for the attendance table */
+.fee-table-fee-admin {
+    border-collapse: collapse;
+    width: 60%;
+  
+}
+
+/* Table header styling */
+.fee-table-fee-admin th, 
+.fee-table-fee-admin td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray line between rows */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .fee-table-fee-admin {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .fee-table-fee-admin th,
+    .fee-table-fee-admin td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .fee-table-fee-admin {
+        font-size: 12px;
+    }
+
+    .fee-table-fee-admin th,
+    .fee-table-fee-admin td {
+        padding: 6px;
+    }
+}

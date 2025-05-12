@@ -1,0 +1,125 @@
+/* Container for the search input and button */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px; /* Add spacing between elements */
+    flex-wrap: wrap; /* Wrap elements on smaller screens */
+  }
+  
+  /* Label styling */
+  .search-label {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333; /* Dark text for the label */
+  }
+  
+  /* Date input styling */
+  .search-input {
+    width: 210px; /* Fixed width */
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Gray border */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text */
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #1e90ff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5); /* Blue shadow */
+  }
+  
+  /* Button styling */
+  .clear-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px;
+    background-color: #1e90ff; /* Blue background */
+    color: #fff; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Button hover effect */
+  .clear-button:hover {
+    background-color: #489bed; /* Slightly darker blue */
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  
+  /* Button active effect */
+  .clear-button:active {
+    background-color: #2563eb; /* Even darker blue */
+    transform: scale(1); /* Reset zoom */
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .search-input {
+      font-size: 12px;
+      padding: 6px;
+    }
+  
+    .clear-button {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .search-container {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: stretch; /* Stretch elements to full width */
+    }
+  
+    .search-input {
+      margin-right: 0;
+      margin-bottom: 8px; /* Add spacing below input */
+      width: 100%; /* Full width for mobile */
+    }
+  
+    .clear-button {
+      width: 100%; /* Full-width button */
+      text-align: center;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+  /* Styling for the entire table */
+.links-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Table header styling */
+  .table-header {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+  }
+  
+  /* Table cell styling */
+  .table-cell {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Message when no links are found */
+  .no-links {
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+  }
+

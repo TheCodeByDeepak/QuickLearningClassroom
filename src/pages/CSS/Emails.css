@@ -1,0 +1,39 @@
+ /* Styling for the attendance table */
+ .emailview-table {
+    border-collapse: collapse;
+    width: 50%;
+  
+}
+
+/* Table header styling */
+.emailview-table th, 
+.emailview-table td {
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray line between rows */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .emailview-table {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .emailview-table th,
+    .emailview-table td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .emailview-table {
+        font-size: 12px;
+    }
+
+    .emailview-table th,
+    .emailview-table td {
+        padding: 6px;
+    }
+}

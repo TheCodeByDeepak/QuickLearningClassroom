@@ -1,0 +1,104 @@
+.viewclassroom-container {
+    padding: 15px;
+    border: 2px solid #1e90ff;
+    border-radius: 8px;
+   margin-top: 15px;
+    max-width: 460px;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: -10px;
+
+ 
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .viewclassroom-title {
+    color: #0056b3;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+
+  }
+
+  .viewclassroom-label {
+
+    font-size: 18px;
+  }
+
+
+  .viewclassroom-select {
+    margin-top: 10px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-color: #007bff;
+  }
+  
+  /* Hover effect */
+  .viewclassroom-select:hover {
+    border-color: #007bff;
+  }
+  
+  /* Focus effect */
+  .viewclassroom-select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+
+  .viewclassroom-input {
+    width: 110px; /* Fixed width */
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px solid #1e90ff; /* Gray border */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text */
+    /* Remove flex: 1 to prevent auto-expansion */
+  }
+  
+  .viewclassroom-input:focus {
+    outline: none;
+    border-color: #1e90ff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5); /* Blue shadow */
+  }
+
+
+  .viewclassroom-clear {
+    background-color: #1e90ff;;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+  .viewclassroom-clear:hover {
+    background-color: #0056b3;
+  }
+
+  .viewclassroom-copy {
+    background-color: #1e90ff;;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  
+    margin-left: 5px;
+  }
+  
+  .viewclassroom-copy:hover {
+    background-color: #0056b3;
+  }

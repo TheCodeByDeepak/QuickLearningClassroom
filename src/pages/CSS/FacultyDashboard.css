@@ -1,0 +1,357 @@
+/* Body Background and Font Styling */
+.faculty-page {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf6ff; /* Light Blue */
+    color: #333; /* Dark text for readability */
+  }
+
+
+
+
+
+  
+    /* Dashboard Heading Styling */
+    .dashboard-heading-faculty {
+        font-size: 2rem; /* Large, bold heading */
+        font-weight: bold;
+        color: #fff; /* White text for the heading */
+        text-align: center; /* Center the heading */
+        text-transform: uppercase; /* Makes the text uppercase */
+        background: linear-gradient(90deg, #2a5298, #1e3c72); /* Dark Blue Gradient */
+        padding: 20px;
+        border-radius: 0px; /* Rounded corners */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        margin-bottom: 20px; /* Space below the heading */
+      }
+
+
+
+
+
+       /* Classroom Heading Styling */
+.classroom-heading-faculty {
+    font-size: 1.75rem; /* Slightly larger size for emphasis */
+    font-weight: bold; /* Bold text */
+    color: #2a5298; /* Dark Blue color */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center align the heading */
+    text-transform: uppercase; /* Uppercase text */
+  }
+
+
+
+
+
+
+
+  /* Classroom List Styling */
+.classroom-list-faculty {
+    list-style-type: none; /* Remove default list bullets */
+    padding-left: 0; /* Remove left padding */
+    margin-top: 20px; /* Add space above the list */
+  }
+  
+  .classroom-item-faculty {
+    background-color: #fff; /* White background for each item */
+    border-radius: 10px; /* Rounded corners for each item */
+    padding: 20px; /* Padding inside the list item */
+    margin-bottom: 20px; /* Space between list items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card effect */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .classroom-item-faculty:hover {
+    transform: translateY(-5px); /* Slightly lift the item on hover */
+  }
+  
+  .classroom-item-faculty h4 {
+    font-size: 1.5rem; /* Larger font for classroom title */
+    color: #1e90ff; /* Bright Blue color for the title */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .classroom-item-faculty p {
+    margin: 5px 0; /* Space between lines */
+    color: #555; /* Dark gray color for text */
+  }
+
+
+
+
+
+   /* Button to toggle student details */
+.view-details-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 12px;
+    background: linear-gradient(90deg, #1e90ff, #5b86e5); /* Bright Blue Gradient */
+    color: #fff;
+    margin-left: 00px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s; /* Transition for background and scale effect */
+  }
+  
+  .view-details-btn:hover {
+    background-color: #36d1dc; /* Aqua Blue on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+
+
+
+  .view-details-btn-quick {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 12px;
+    background: linear-gradient(90deg, #1e90ff, #5b86e5); /* Bright Blue Gradient */
+    color: #fff;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s; /* Transition for background and scale effect */
+  }
+  
+  .view-details-btn-quick:hover {
+    background-color: #36d1dc; /* Aqua Blue on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+
+
+
+   /* Container for all cards */
+   .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column; /* Ensures icon is above the text */
+    align-items: center;
+    justify-content: center;
+    background-color:#eaf6ff;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .icon {
+    font-size: 24px; /* Adjust the size of the icon */
+    margin-bottom: 8px; /* Space between icon and text */
+    color: #1e90ff; /* Set icon color */
+  }
+  
+  .card:hover {
+    background-color: #bdf2f5;
+    transform: scale(1.05);
+  }
+  
+  .card h3 {
+    font-size: 14px;
+    margin: 0;
+    color: #333;
+  }
+
+
+
+
+  .faculty-text.hidden {
+    color: tomato;
+  }
+
+  .quick-info-text.hidden {
+    color: tomato;
+  }
+
+  .highlight-text {
+    color: tomato;
+  }
+  .attendance-text.hidden {
+    color: tomato;
+  }
+  .blacklist-text.active {
+    color: tomato;
+  }
+  .marks-text.active {
+    color: tomato;
+  }
+  .toggle-text.active {
+    color: tomato;
+  }
+  
+
+
+
+
+
+  .new-line-content {
+    display: block;  /* Ensures it starts on a new line */
+    width: 100%; /* Optional: Makes it take the full width */
+    margin-top: 10px; /* Adds spacing if needed */
+  }
+  
+
+
+
+  .facultyview-container {
+    padding: 15px;
+    border: 2px solid #1e90ff;
+    border-radius: 8px;
+    margin-top: 20px;
+    max-width: 200px;
+  }
+  
+  .facultyview-container h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .facultyview-container ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .facultyview-container li {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  
+
+   /* No Classrooms Available Message */
+.no-classrooms-message-facultydashboard {
+  font-size: 1.2rem; /* Slightly larger text */
+  color: #ff6347; /* Tomato red color to indicate no data */
+  text-align: center; /* Center the text */
+  margin-top: 20px; /* Add some space above the message */
+  font-weight: bold; /* Bold text for emphasis */
+}
+  
+
+
+
+
+
+
+
+.action-btn {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+/* Attendance Button Styles */
+.attendance-btn {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.attendance-btn:hover {
+  background-color: #1e90ff;
+}
+
+/* Blacklist Button Styles */
+.blacklist-btn {
+  background-color: #1e90ff;
+  color: white;
+  margin-top: 10px;
+}
+
+.blacklist-btn:hover {
+  background-color: #1e90ff;
+}
+
+/* Hide State */
+.hide-btn {
+  background-color: tomato !important;
+}
+
+/* Common Button Styles */
+.info-btn {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+/* Blacklist Info Button */
+.blacklist-info-btn {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.blacklist-info-btn:hover {
+  background-color: #1e90ff;
+}
+
+/* Marks Info Button */
+.marks-info-btn {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.marks-info-btn:hover {
+  background-color: #1e90ff;
+}
+
+/* Hide State */
+.hide-btn {
+  background-color: tomato !important;
+}
+
+
+/* Common Button Styles */
+.action-btn {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+/* Homework Button */
+.hw-btn {
+  background-color: #1e90ff; /* Green */
+  color: white;
+}
+
+.hw-btn:hover {
+  background-color: #1e90ff;
+}
+
+/* Notification Button */
+.notification-btn {
+  background-color: #1e90ff; /* Deep Orange */
+  color: white;
+}
+
+.notification-btn:hover {
+  background-color: #1e90ff;
+}
+
+/* Hide State */
+.hide-btn {
+  background-color: tomato !important;
+}

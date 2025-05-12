@@ -1,0 +1,91 @@
+.chatbot-wrapper {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .chat-toggle-button {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 6px 9px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-family: 'Chalkduster', cursive;
+    margin-left: 25px;
+  }
+  
+ 
+  
+  .chat-toggle-button:hover {
+    background-color: #1e90ff;
+    border-color: #1e90ff;
+  }
+  
+  .chatbot-container {
+    width: 100%;
+    max-width: 400px; /* Reduced container size */
+    background: #9bccf5; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    max-height: 195px; /* Restricting height */
+    overflow-y: auto; /* Adding scrollbar */
+  }
+  
+  /* Scrollbar styling */
+  .chatbot-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .chatbot-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .chatbot-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Space between FAQ items */
+    padding: 10px;
+  }
+  
+  .faq-item {
+    width: 100%;
+    max-width: 350px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-family: 'Chalkduster', cursive;
+  }
+  
+  .faq-item h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Chalkduster', cursive;
+  }
+  
+  .faq-item p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #555;
+    font-family: 'Chalkduster', cursive;
+  }
+
+  .faq-text{
+    font-family: 'Chalkduster', cursive;
+  }
+  
